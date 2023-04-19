@@ -21,7 +21,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        $CONDA/bin/conda create -f environment.yml
+        $CONDA/bin/conda env create -f environment.yml
 
 
     # Build the book
