@@ -1,0 +1,43 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: A Xeus-cling based book
+author: The ESE team
+logo: logo.png
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+    
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/jrper/xeus-book  # Online location of your book
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: main  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+# Binder link settings
+use_binder_button: true                # If 'true', add a binder button for interactive links
+binderhub_url: https://mybinder.org                        # The URL for your BinderHub. If no URL, use ""
+binder_repo_base: https://github.com/                     # The site on which the textbook repository is hosted
+binder_repo_org: jrper           # The username or organization that owns this repository
+binder_repo_name: xeus-book                        # The name of the repository on the web
+binder_repo_branch: main                   # The branch on which your textbook is hosted.
+binderhub_interact_text: Interact              # The text that interact buttons will contain.
+
+# Thebelab settings
+use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
+thebelab_button_text: Thebelab                 # The text to display inside the Thebelab initialization button
+codemirror_theme: abcdef                     # Theme for codemirror cells, for options see https://codemirror.net/doc/manual.html#config
