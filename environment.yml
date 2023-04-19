@@ -2,6 +2,6 @@ name: xeus-book
 channels:
   - conda-forge
 dependencies:
-  = python
+  - python
   - jupyter-book
   - xeus-cling
