@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: A Xeus-cling based book
+title: A Xeus-cling based Jupyter book
 author: The ESE team
 logo: logo.png
 
