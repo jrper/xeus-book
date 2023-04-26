@@ -8,6 +8,8 @@ COPY entrypoint.sh /opt/conda/bin/entrypoint.sh
 
 RUN chmod 755 /opt/conda/bin/entrypoint.sh
 
+ENV CONDA_PATH=/opt/conda
+
 ENTRYPOINT [ "/opt/conda/bin/entrypoint.sh" ] 
 
 WORKDIR /home/book
