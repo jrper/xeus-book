@@ -5,6 +5,11 @@ on:
   push:
     branches:
     - main
+    paths-ignore:
+      - '.github/workflows/back_end.yml'
+      - 'environment.yml'
+      - 'Dockerfile'
+
 
 # This checks the code out, builds the book, and pushes it to `gh-pages`
 jobs:

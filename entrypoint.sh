@@ -1,3 +1,3 @@
 #!/bin/bash -l
 
-/opt/conda/bin/jupyter-book build .
+HOME=/root /opt/conda/bin/jupyter book build .
