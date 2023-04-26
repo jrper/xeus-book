@@ -9,7 +9,7 @@ on:
       - '.github/workflows/back_end.yml'
       - 'environment.yml'
       - 'Dockerfile'
-
+      - 'entrypoint.sh'
 
 # This checks the code out, builds the book, and pushes it to `gh-pages`
 jobs:

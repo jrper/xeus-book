@@ -7,6 +7,7 @@ on:
       - '.github/workflows/back_end.yml'
       - 'environment.yml'
       - 'Dockerfile'
+      - 'entrypoint.sh'
       
 env:
   REGISTRY: ghcr.io

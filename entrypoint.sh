@@ -1,3 +1,5 @@
 #!/bin/bash -l
 
-HOME=/root /opt/conda/bin/jupyter book build .
+mkdir -p /github
+ln -s /root $HOME
+/opt/conda/bin/jupyter book build .
