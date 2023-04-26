@@ -7,9 +7,8 @@ on:
     - main
     paths-ignore:
       - '.github/workflows/back_end.yml'
+      - 'back-end/*'
       - 'environment.yml'
-      - 'Dockerfile'
-      - 'entrypoint.sh'
 
 # This checks the code out, builds the book, and pushes it to `gh-pages`
 jobs:
