@@ -10,4 +10,4 @@ RUN chmod 755 /opt/conda/bin/entrypoint.sh
 
 ENTRYPOINT [ "/opt/conda/bin/entrypoint.sh" ] 
 
-WORKDIR /home/tmp
+WORKDIR /home/book
